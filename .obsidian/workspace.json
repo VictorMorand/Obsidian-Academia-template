@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "80f559b6fbd50046",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2b040932425b382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c72cb6ed6ff2ffaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LiteratureNotes/vaswaniAttentionAllYou2017.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "vaswaniAttentionAllYou2017"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af4d5fad09710d25",
+    "type": "split",
+    "children": [
+      {
+        "id": "b679f74188278455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab9b845d9cc9c653",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "830eef0743744d87",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6f2a46397ae7d13e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0f446397a2102670",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e006dcf90973bc7",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "LiteratureNotes/vaswaniAttentionAllYou2017.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5978809889163167,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of vaswaniAttentionAllYou2017"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.51103591918945
+  },
+  "right": {
+    "id": "4f53356defab32d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "0805fc62c8560560",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4155f47301997acf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ZotLit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ZotLit"
+            }
+          },
+          {
+            "id": "6d6a91c29f991f72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "f0476dbf70957bc3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "27a648b5fa64c174",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          },
+          {
+            "id": "a0654d3832827db9",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "LiteratureNotes/vaswaniAttentionAllYou2017.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "zt-reader"
+              },
+              "icon": "highlighter",
+              "title": "Zotero Annotations"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "a0654d3832827db9",
+  "lastOpenFiles": [
+    "🤓 Research.md",
+    "Tutorial.md",
+    "LiteratureNotes/vaswaniAttentionAllYou2017.md",
+    "LiteratureNotes/assets/73T7CX3U.png",
+    "LiteratureNotes/ivisonUnpackingDPOPPO2024.md",
+    "LiteratureNotes/assets/I44T9Y76.png",
+    "Scripts/Wiki.js",
+    "Scripts/Ressources.js",
+    "LiteratureNotes/sanderWatermarkAnythingLocalized2024.md",
+    "LiteratureNotes/zhangTomatoTomahtoTomate2024.md",
+    "LiteratureNotes/pattersonWhereYouKnow2007.md",
+    "LiteratureNotes/wangReverseNERSelfGeneratedExampleDriven2024.md",
+    "LiteratureNotes/assets/Y42TUGRW.png",
+    "LiteratureNotes/assets/SJ3KMAJ4.png",
+    "Templates/ZotLit/zt-annots.eta.md",
+    "Templates/ZotLit/zt-cite.eta.md",
+    "Templates/ZotLit/zt-note.eta 1.md",
+    "Templates/ZotLit/zt-note.eta 2.md",
+    "Templates/ZotLit/zt-field.eta 1.md",
+    "Templates/ZotLit/zt-colored.eta 1.md",
+    "Templates/ZotLit/zt-colored.eta 2.md",
+    "Templates/ZotLit/zt-cite2.eta 1.md",
+    "Templates/ZotLit/zt-cite.eta 1.md",
+    "Templates/ZotLit/zt-annot.eta.md",
+    "Templates/ZotLit/zt-annots.eta 1.md",
+    "Templates/ZotLit/zt-annot.eta 1.md",
+    "Templates/ZotLit/zt-annot.eta 2.md",
+    "LiteratureNotes/katzBackwardLensProjecting2024.md",
+    "Templates/Zotlit/zt-colored.eta 2.md",
+    "Templates/ZotLit/zt-cite2.eta 2.md",
+    "Templates/Zotlit/zt-cite2.eta 2.md",
+    "LiteratureNotes/assets/ISE3N556.png",
+    "LiteratureNotes/assets/ZI7TR2AT.png",
+    "Assets",
+    "Wiki",
+    "Scripts",
+    "LiteratureNotes/assets/URV4XGER.png",
+    "LiteratureNotes/assets/S9DPDTFF.png",
+    "LiteratureNotes/assets",
+    "LiteratureNotes",
+    "LitteratureNotes",
+    "Templates/ZotLit",
+    "Templates"
+  ]
+}
