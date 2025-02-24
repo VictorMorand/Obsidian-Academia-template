@@ -22,6 +22,6 @@
   "autoRefresh": true,
   "zoteroDataDir": "/Users/victor/Zotero",
   "citationLibrary": 1,
-  "imgExcerptImport": "symlink",
+  "imgExcerptImport": "copy",
   "imgExcerptPath": "LiteratureNotes/assets"
 }

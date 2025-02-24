@@ -2,11 +2,16 @@ class Ressources {
   /** These are the parameters that can be used by the functions defined here
    * @param {Object} dv DataView object of Obisidian extension.
    */
+  constructor() {
+    this.litFolder = "LiteratureNotes";
+    this.wikiFolder = "Wiki";
+  }
+
   allPapers(dv, filter = null) { // Returns a list of all available papers and process them to easily create tables 
     const { obsidian, app } = self.customJS || {};
     if (obsidian == null || app == null) throw new Error("customJS is null.");
     // if filter is not null, filter the papers
-    const query = '"LiteratureNotes"' + (filter ? filter : "")
+    const query = `"${this.litFolder}"` + (filter ? filter : "")
 
     return dv.pages(query)
         .sort(p => p.statut, 'asc')
@@ -14,7 +19,7 @@ class Ressources {
           //TODO transform authors into list of clickable !
           if (p.authors == null) p.authors = "";
           let authors = String(p.authors).split(", ").map(
-            a => `[[Connaissances/Personnes/Authors/${a}|${a}]]`
+            a => `[[${this.wikiFolder}/Authors/${a}|${a}]]`
             ).join(", ");
 
           // add link to the title
@@ -30,7 +35,7 @@ class Ressources {
     if (obsidian == null || app == null) throw new Error("customJS is null.");
     
     // get all papers 
-    return dv.pages('"LitteratureNotes""')
+    return dv.pages(`"${this.litFolder}"`)
         .sort(p => p.statut, 'asc')
         .map(p => { 
           //TODO transform authors into list of clickable !
@@ -77,4 +82,5 @@ class Ressources {
       dv.paragraph(`![|500](${cover})`)
         }
     }
+
 }
