@@ -49,15 +49,27 @@ class Ressources {
   }
 
   // Display all contributions of a specific author in a table 
-  authorPapers(dv){
-    let name = dv.current().file.name // access current file name
-    let pages = this.allRessources(dv)
-    pages = pages.filter(p => p.authors.includes(name))
+
+  authorPapers(dv) {
+    let name = dv.current().file.name;
+    let pages = this.allRessources(dv);
+
+    function normalizeString(str) {
+        return String(str || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
+    let normalizedName = normalizeString(name);
+    pages = pages.filter(p => {
+      if (!p.authors) return false;
+      return normalizeString(p.authors).includes(normalizedName);
+  });
     dv.table( ["Status", "Title", "year", "authors"],
       pages.sort(p => p.year, 'desc')
       .map(p => [p.status, p.title, p.year, p.authors] )
       )
-  }
+
+}
+
+
 
   relatedPapers(dv){
     const name = dv.current().file.name // access current file name
