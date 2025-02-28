@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❓Tutorial/🎓 Research.md",
+                "file": "LiteratureNotes/Authors/Ashish Vaswani.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎓 Research"
+              "title": "Ashish Vaswani"
             }
           }
         ]
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "❓Tutorial/🎓 Research.md",
+                "file": "LiteratureNotes/Authors/Ashish Vaswani.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -136,7 +136,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 🎓 Research"
+              "title": "Graph of Ashish Vaswani"
             }
           }
         ]
@@ -251,7 +251,10 @@
   },
   "active": "9ce3aad99cfceb94",
   "lastOpenFiles": [
+    "LiteratureNotes/Authors",
     "❓Tutorial/🎓 Research.md",
+    "LiteratureNotes/Authors/Ashish Vaswani.md",
+    "Wiki/Authors",
     "README.md",
     "Wiki/transformer.md",
     "Templates/Related Papers.md",
@@ -265,8 +268,7 @@
     "LitteratureNotes/Authors",
     "LitteratureNotes",
     "Wiki/ZotLit.md",
-    "LiteratureNotes/Authors",
-    "Assets/Screenshot 2025-02-20 at 11.01.33.png",
+    "Assets/OpenVault.png",
     "❓Tutorial",
     "Clippings/MMTEB Massive Multilingual Text Embedding Benchmark.md",
     "Clippings",
@@ -288,12 +290,9 @@
     "Templates/ZotLit/zt-note.eta 1.md",
     "Templates/ZotLit/zt-note.eta 2.md",
     "Templates/ZotLit/zt-field.eta 1.md",
-    "Templates/ZotLit/zt-colored.eta 1.md",
-    "Templates/ZotLit/zt-colored.eta 2.md",
     "LiteratureNotes/assets/ISE3N556.png",
     "LiteratureNotes/assets/ZI7TR2AT.png",
     "Assets",
-    "Wiki",
     "LiteratureNotes/assets/URV4XGER.png",
     "LiteratureNotes/assets/S9DPDTFF.png"
   ]

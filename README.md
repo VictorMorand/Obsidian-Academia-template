@@ -11,7 +11,7 @@ It can however be a pain to setup...
 # Features 
 
 ### **Zotero** Integration: 
-[Zotero](https://www.zotero.org/) is a powerful tool to save academic papers. It can find and dowload open access pdfs, import relavant metadata, and allow you to read and highlight them.
+[Zotero](https://www.zotero.org/) is a powerful tool to save academic papers. It can find and download open access pdfs, import relavant metadata, and allow you to read and highlight them.
 
 ### Literature management
 - **Authors** Management:
@@ -21,6 +21,6 @@ It can however be a pain to setup...
 ### Obsidian
 - [ ] First, Download and install Obsidian, go to https://obsidian.md/download 
 - [ ] Then click "Open folder as Vault" and select the repository folder.
-![[Screenshot 2025-02-20 at 11.01.33.png]]
+![](Assets/OpenVault.png)
 
 *Now, you are in Obsidian, you can open the [[❓Tutorial]]* 
