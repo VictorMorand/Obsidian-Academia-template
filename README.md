@@ -1,26 +1,30 @@
 
-<h1 style="text-align:center;">Obsidian for Academia template Vault</h1>
+<h1 style="text-align:center;"><img src="Assets/Obsidian_small.png" width="50" height="50" /> Obsidian for Academia template Vault</h1>
 
 ---
 
-Hi, This is a demo folder for an [[Obsidian]] Vault !
+This repository serves as a demo for setting up an [Obsidian](https://obsidian.md) Vault for academics.
 
-Obsidian is a very powerful tool for note taking, but it can basically do anything else related to knowledge management, journalling, Literature reviews ... 
+Obsidian is an incredibly powerful tool for note-taking on itself. Its capabilities can furthermore be significantly enhanced with a wide range of plugins from the Open Source Community. These plugins enable advanced functionalities, particularly in areas such as knowledge management, journaling, and literature reviews.
 
-It can however be a pain to setup... 
+While Obsidian is straightforward to use with its default configuration, setting up plugins and integrations can be time-consuming. **This is why we propose here a default setup showcasing the Obsidian's capabilities for academic usage.**
+
 # Features 
 
 ### **Zotero** Integration: 
 [Zotero](https://www.zotero.org/) is a powerful tool to save academic papers. It can find and download open access pdfs, import relavant metadata, and allow you to read and highlight them.
 
 ### Literature management
+
 - **Authors** Management:
 - **Related Papers**:
+
 
 # Installation
 ### Obsidian
 - [ ] First, Download and install Obsidian, go to https://obsidian.md/download 
 - [ ] Then click "Open folder as Vault" and select the repository folder.
-![](Assets/OpenVault.png)
+
+<img src="Assets/OpenVault.png" width="500" />
 
 *Now, you are in Obsidian, you can open the [[❓Tutorial]]* 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LiteratureNotes/Authors/Ashish Vaswani.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ashish Vaswani"
+              "title": "README"
             }
           }
         ]
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LiteratureNotes/Authors/Ashish Vaswani.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -136,7 +136,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Ashish Vaswani"
+              "title": "Graph of README"
             }
           }
         ]
@@ -249,11 +249,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9ce3aad99cfceb94",
+  "active": "ab9b845d9cc9c653",
   "lastOpenFiles": [
+    "Assets/OpenVault.png",
+    "Assets/Obsidian_small.png",
+    "LiteratureNotes/Authors/Ashish Vaswani.md",
     "LiteratureNotes/Authors",
     "❓Tutorial/🎓 Research.md",
-    "LiteratureNotes/Authors/Ashish Vaswani.md",
     "Wiki/Authors",
     "README.md",
     "Wiki/transformer.md",
@@ -262,13 +264,11 @@
     "❓Tutorial/❓Tutorial.md",
     "Wiki/Obsidian.md",
     "❓Tutorial/Plugins.md",
-    "LiteratureNotes/Authors/Ashish Vaswani.md",
     "Templates/Author.md",
     "LitteratureNotes/Authors/Ashish Vaswani.md",
     "LitteratureNotes/Authors",
     "LitteratureNotes",
     "Wiki/ZotLit.md",
-    "Assets/OpenVault.png",
     "❓Tutorial",
     "Clippings/MMTEB Massive Multilingual Text Embedding Benchmark.md",
     "Clippings",
