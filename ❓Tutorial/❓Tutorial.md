@@ -15,16 +15,17 @@ Hi, Welcome to your new [[Obsidian]] vault ! We will guide you though a few step
 
 Now you can open the 
 ### Plugins
-This template vault leverages several plugins to 
+This template vault leverages several plugins for various usages. We must first ensure that they are properly activated.
+
 - [ ] Go to Parameters '⚙️' > 'Community plugins' > 'Turn on community plugins'
 
 >[!info]- Plugins preloaded
-> ![[Plugins#Plugins Loaded]]
+ > ![[Plugins#Plugins Loaded here]]
 ## Zotlit integration
 
 To interact with your Zotero Library, we first need to access your Zotero Database. 
 #### Setup
-- [ ] make sure the Zotlit Plugin is installed and enabled ([click here](https://obsidian.md/plugins?id=zotlit))
-- [ ] 
+- [ ] make sure the Zotlit Plugin is installed and enabled ([click here](https://obsidian.md/plugins?id=zotlit) > '**Enable**')
+
 
 >[!tip] you can go to the [[🎓 Research]] page for a demonstration of the Zotero integration capabilities.

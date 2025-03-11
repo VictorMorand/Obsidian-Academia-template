@@ -6,5 +6,5 @@ In this vault, our basic setting includes:
  - [[ZotLit]]: manages the integration with zotero
  - [[Templater]]: allows to use templates when creating new notes
  - [[Dataview]]: is great to query and show tables, graphs and from with your vault notes.
- - [[Meta Bind]]: offers dynamic 
+ - [[Meta Bind]]: offers dynamic widgets sucha s buttons, entries and other stuff that can make your vault more interactive.
 - [[CustomJS]]: allows to write js snippets that can be called from different notes, it is very useful when you begin to code complex dattaviewjs queries that you want te reuse throuhout your vault.

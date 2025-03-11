@@ -69,6 +69,7 @@ actions:
 
 > We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. [(Page 1)](zotero://open-pdf/library/items/H73JK4MH?page=1&annotation=ZYALSTMZ)
 > ^ZYALSTMZaH73JK4MHp1
+
 > ![[LiteratureNotes/assets/73T7CX3U.png]] [(Page 3)](zotero://open-pdf/library/items/H73JK4MH?page=3&annotation=73T7CX3U)
 > ^73T7CX3UaH73JK4MHp3
 

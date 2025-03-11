@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "❓Tutorial/Plugins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Plugins"
             }
           }
         ]
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "❓Tutorial/Plugins.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -131,12 +131,12 @@
                   "repelStrength": 4.22560296846011,
                   "linkStrength": 1,
                   "linkDistance": 195,
-                  "scale": 0.5978809889163169,
+                  "scale": 0.7351332014670852,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of README"
+              "title": "Graph of Plugins"
             }
           }
         ]
@@ -249,26 +249,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ab9b845d9cc9c653",
+  "active": "9ce3aad99cfceb94",
   "lastOpenFiles": [
+    "❓Tutorial/❓Tutorial.md",
+    "❓Tutorial/Plugins.md",
+    "Wiki/ZotLit.md",
+    "Wiki/transformer.md",
+    "LiteratureNotes/vaswaniAttentionAllYou2017.md",
+    "Wiki/Templater.md",
+    "Wiki/Obsidian.md",
+    "README.md",
     "Assets/OpenVault.png",
     "Assets/Obsidian_small.png",
     "LiteratureNotes/Authors/Ashish Vaswani.md",
     "LiteratureNotes/Authors",
     "❓Tutorial/🎓 Research.md",
     "Wiki/Authors",
-    "README.md",
-    "Wiki/transformer.md",
     "Templates/Related Papers.md",
-    "LiteratureNotes/vaswaniAttentionAllYou2017.md",
-    "❓Tutorial/❓Tutorial.md",
-    "Wiki/Obsidian.md",
-    "❓Tutorial/Plugins.md",
     "Templates/Author.md",
     "LitteratureNotes/Authors/Ashish Vaswani.md",
     "LitteratureNotes/Authors",
     "LitteratureNotes",
-    "Wiki/ZotLit.md",
     "❓Tutorial",
     "Clippings/MMTEB Massive Multilingual Text Embedding Benchmark.md",
     "Clippings",
