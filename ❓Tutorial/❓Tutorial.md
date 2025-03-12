@@ -25,7 +25,7 @@ This template vault leverages several plugins for various usages. We must first 
 
 To interact with your Zotero Library, we first need to access your Zotero Database. 
 #### Setup
-- [ ] make sure the Zotlit Plugin is installed and enabled ([click here](https://obsidian.md/plugins?id=zotlit) > '**Enable**')
-
+- [ ] make sure the [[Zotlit]] Plugin is installed and enabled in Obsidian ([click here](https://obsidian.md/plugins?id=zotlit) > '**Enable**')
+- [ ] Follow the installation instructions to from [Zotlit documentation](https://zotlit.aidenlx.top/getting-started/install): they will explain how to install the Zotero Plugin for Obsidian integration.
 
 >[!tip] you can go to the [[🎓 Research]] page for a demonstration of the Zotero integration capabilities.

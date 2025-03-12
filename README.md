@@ -1,7 +1,5 @@
 
-<h1 style="text-align:center;"><img src="Assets/Obsidian_small.png" width="50" height="50" /> Obsidian for Academia template Vault</h1>
-
----
+<h1 style="text-align:center;"><img src="Assets/Obsidian_small.png" width="50" height="50" /> Obsidian for Academia Template </h1>
 
 This repository serves as a demo for setting up an [Obsidian](https://obsidian.md) Vault for academics.
 
@@ -25,6 +23,6 @@ While Obsidian is straightforward to use with its default configuration, setting
 - [ ] First, Download and install Obsidian, go to https://obsidian.md/download 
 - [ ] Then click "Open folder as Vault" and select the repository folder.
 
-<img src="Assets/OpenVault.png" width="500" />
+<img src="Assets/OpenVault.png" width="400" />
 
 *Now, you are in Obsidian, you can open the [[❓Tutorial]]* 

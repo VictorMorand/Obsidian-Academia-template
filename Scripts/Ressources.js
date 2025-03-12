@@ -7,49 +7,38 @@ class Ressources {
     this.wikiFolder = "Wiki";
   }
 
+  formatPaper(page){
+    if (page.authors == null) page.authors = "";
+    //Transform authors into list of clickable
+    let authors = String(page.authors).split(", ").map(
+      a => `[[${this.wikiFolder}/Authors/${a}|${a}]]`
+      ).join(", ");
+    // make title clickable
+    page.title =  `[[${page.file.path}|${page.title}]]`,
+    page.authors = authors
+    return page
+  }
+
   allPapers(dv, filter = null) { // Returns a list of all available papers and process them to easily create tables 
     const { obsidian, app } = self.customJS || {};
     if (obsidian == null || app == null) throw new Error("customJS is null.");
     // if filter is not null, filter the papers
     const query = `"${this.litFolder}"` + (filter ? filter : "")
-
     return dv.pages(query)
         .sort(p => p.statut, 'asc')
-        .map(p => { 
-          //TODO transform authors into list of clickable !
-          if (p.authors == null) p.authors = "";
-          let authors = String(p.authors).split(", ").map(
-            a => `[[${this.wikiFolder}/Authors/${a}|${a}]]`
-            ).join(", ");
-
-          // add link to the title
-          p.title =  `[[${p.file.path}|${p.title}]]`,
-          p.authors = authors
-          return p
-          })
-  
+        .map(p => this.formatPaper(p))
         }
 
   allRessources(dv) { // Returns a list of all available papers and process them to easily create tables 
     const { obsidian, app } = self.customJS || {};
     if (obsidian == null || app == null) throw new Error("customJS is null.");
-    
     // get all papers 
     return dv.pages(`"${this.litFolder}"`)
         .sort(p => p.statut, 'asc')
-        .map(p => { 
-          //TODO transform authors into list of clickable !
-          if (p.authors == null) p.authors = "";
-          let authors = String(p.authors);
-          // add link to the title
-          p.title =  `[[${p.file.path}|${p.title}]]`,
-          p.authors = authors
-          return p
-          })
+        .map(p => this.formatPaper(p))
   }
 
   // Display all contributions of a specific author in a table 
-
   authorPapers(dv) {
     let name = dv.current().file.name;
     let pages = this.allRessources(dv);
@@ -61,15 +50,12 @@ class Ressources {
     pages = pages.filter(p => {
       if (!p.authors) return false;
       return normalizeString(p.authors).includes(normalizedName);
-  });
+    });
     dv.table( ["Status", "Title", "year", "authors"],
       pages.sort(p => p.year, 'desc')
-      .map(p => [p.status, p.title, p.year, p.authors] )
+      .map(p => [p.title, p.year, p.authors] )
       )
-
-}
-
-
+  }
 
   relatedPapers(dv){
     const name = dv.current().file.name // access current file name
@@ -80,19 +66,5 @@ class Ressources {
       .map(p => [p.status, p.title, p.year, p.authors] )
       )
   }
-
-  itemHeader(dv){ // inserted on to af all Raindrop pages
-    dv.paragraph(
-      `\`button-SyncRaindrop\` | [➡️Read](${dv.current().raindropUrl.replace('/edit','/preview')}) | [🖥️Original](${dv.current().url})| [🌍All Saves](obsidian://open?vault=Vault&file=Projets%2FRaindrop%20Saves)`
-      )
-      
-    let cover = dv.current().cover;
-    if (dv.current().url.contains("youtube.com") ) {
-      cover = dv.current().url;
-    }
-    if (cover != null) {
-      dv.paragraph(`![|500](${cover})`)
-        }
-    }
 
 }
