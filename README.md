@@ -16,13 +16,15 @@ While Obsidian is straightforward to use with its default configuration, setting
 
 - **Authors** Management:
 - **Related Papers**:
-
-
 # Installation
 ### Obsidian
 - [ ] First, Download and install Obsidian, go to https://obsidian.md/download 
+- [ ] To test this vault right away you can clone this repository:
+```bash
+git clone https://git.isir.upmc.fr/morand/obsidian-academia-template.git
+```
 - [ ] Then click "Open folder as Vault" and select the repository folder.
 
 <img src="Assets/OpenVault.png" width="400" />
 
-*Now, you are in Obsidian, you can open the [[❓Tutorial]]* 
+#### *Now than you are in Obsidian, you can open the [[❓Tutorial]]*

@@ -9,7 +9,7 @@ Hi, Welcome to your new [[Obsidian]] vault ! We will guide you though a few step
 >[!tip] We provide you with this complete Vault, with preloaded and configured plugins 
 
 # Features 
-- **Zotero** Integration: 
+- **[[Zotero]]** Integration: 
 - **Authors** Management
 - **Related Papers**:
 
@@ -28,4 +28,7 @@ To interact with your Zotero Library, we first need to access your Zotero Databa
 - [ ] make sure the [[Zotlit]] Plugin is installed and enabled in Obsidian ([click here](https://obsidian.md/plugins?id=zotlit) > '**Enable**')
 - [ ] Follow the installation instructions to from [Zotlit documentation](https://zotlit.aidenlx.top/getting-started/install): they will explain how to install the Zotero Plugin for Obsidian integration.
 
->[!tip] you can go to the [[🎓 Research]] page for a demonstration of the Zotero integration capabilities.
+>[!faq]- [[Zotero]] links won't open ?
+> If using mac or linux, there may are permissions so setup:  [this post](https://forums.zotero.org/discussion/109031/allow-this-site-to-open-the-obsidian-link-with-obsidian](https://forums.zotero.org/discussion/109031/allow-this-site-to-open-the-obsidian-link-with-obsidian)) may help
+
+>[!tip] Congratulations 🎉 you can go to the [[🎓 Research]] page for a demonstration of the Zotero integration capabilities.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❓Tutorial/❓Tutorial.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "❓Tutorial"
+              "title": "README"
             }
           },
           {
@@ -100,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "❓Tutorial/❓Tutorial.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of ❓Tutorial"
+              "title": "Graph of README"
             }
           }
         ]
@@ -265,19 +265,28 @@
   },
   "active": "9ce3aad99cfceb94",
   "lastOpenFiles": [
+    "ZtTemplates/zt-colored.eta.md",
+    "ZtTemplates/zt-cite2.eta.md",
+    "ZtTemplates/zt-cite.eta.md",
+    "ZtTemplates/zt-annot.eta.md",
+    "ZtTemplates/zt-annots.eta.md",
+    "ZtTemplates/zt-field.eta.md",
+    "ZtTemplates/zt-note.eta.md",
+    "ZtTemplates",
     "❓Tutorial/🎓 Research.md",
+    "❓Tutorial/Plugins.md",
+    "❓Tutorial/❓Tutorial.md",
+    "README.md",
     "Wiki/transformer.md",
+    "Wiki/Authors/Illia Polosukhin.md",
+    "Wiki/Templater.md",
+    "Wiki/Obsidian.md",
     "Wiki/Authors/Noam Shazeer.md",
     "Wiki/Authors/Ashish Vaswani.md",
-    "❓Tutorial/❓Tutorial.md",
     "LiteratureNotes/vaswaniAttentionAllYou2017.md",
     "LiteratureNotes/Authors/Noam Shazeer.md",
     "LiteratureNotes/Authors",
-    "❓Tutorial/Plugins.md",
     "Wiki/ZotLit.md",
-    "Wiki/Templater.md",
-    "Wiki/Obsidian.md",
-    "README.md",
     "Assets/OpenVault.png",
     "Assets/Obsidian_small.png",
     "Wiki/Authors",
@@ -296,17 +305,8 @@
     "LiteratureNotes/ivisonUnpackingDPOPPO2024.md",
     "LiteratureNotes/assets/I44T9Y76.png",
     "Scripts/Wiki.js",
-    "Scripts/Ressources.js",
-    "LiteratureNotes/sanderWatermarkAnythingLocalized2024.md",
-    "LiteratureNotes/zhangTomatoTomahtoTomate2024.md",
-    "LiteratureNotes/pattersonWhereYouKnow2007.md",
-    "LiteratureNotes/wangReverseNERSelfGeneratedExampleDriven2024.md",
     "LiteratureNotes/assets/Y42TUGRW.png",
     "LiteratureNotes/assets/SJ3KMAJ4.png",
-    "Templates/ZotLit/zt-annots.eta.md",
-    "Templates/ZotLit/zt-cite.eta.md",
-    "Templates/ZotLit/zt-note.eta 1.md",
-    "Templates/ZotLit/zt-note.eta 2.md",
     "LiteratureNotes/assets/ISE3N556.png",
     "LiteratureNotes/assets/ZI7TR2AT.png",
     "LiteratureNotes/assets/URV4XGER.png",
