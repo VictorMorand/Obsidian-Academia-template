@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Templates/ZotLit/zt-annot.eta.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "zt-annot.eta"
             }
           },
           {
@@ -100,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "Templates/ZotLit/zt-annot.eta.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of README"
+              "title": "Graph of zt-annot.eta"
             }
           }
         ]
@@ -265,6 +265,10 @@
   },
   "active": "9ce3aad99cfceb94",
   "lastOpenFiles": [
+    "Templates/ZotLit/zt-note.eta.md",
+    "Templates/ZotLit/zt-annot.eta.md",
+    "Templates/ZotLit/zt-field.eta.md",
+    "README.md",
     "ZtTemplates/zt-colored.eta.md",
     "ZtTemplates/zt-cite2.eta.md",
     "ZtTemplates/zt-cite.eta.md",
@@ -276,7 +280,6 @@
     "❓Tutorial/🎓 Research.md",
     "❓Tutorial/Plugins.md",
     "❓Tutorial/❓Tutorial.md",
-    "README.md",
     "Wiki/transformer.md",
     "Wiki/Authors/Illia Polosukhin.md",
     "Wiki/Templater.md",
@@ -297,12 +300,9 @@
     "LitteratureNotes/Authors",
     "LitteratureNotes",
     "❓Tutorial",
-    "Clippings/MMTEB Massive Multilingual Text Embedding Benchmark.md",
     "Clippings",
     "LiteratureNotes/assets/73T7CX3U.png",
-    "LiteratureNotes/palFutureLensAnticipating2023.md",
     "attachments",
-    "LiteratureNotes/ivisonUnpackingDPOPPO2024.md",
     "LiteratureNotes/assets/I44T9Y76.png",
     "Scripts/Wiki.js",
     "LiteratureNotes/assets/Y42TUGRW.png",

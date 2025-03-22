@@ -1,6 +1,6 @@
 # <%= it.title %>
 ```meta-bind-button
-label: 🔃 Update Note
+label: 🔄 Update Note
 icon: ""
 style: default
 class: ""

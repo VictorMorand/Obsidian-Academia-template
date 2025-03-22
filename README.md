@@ -18,7 +18,7 @@ While Obsidian is straightforward to use with its default configuration, setting
 - **Related Papers**:
 # Installation
 ### Obsidian
-- [ ] First, Download and install Obsidian, go to https://obsidian.md/download 
+- [ ] First, Download and install Obsidian, Unfortunately the last version has unfixed issues, so you can get a compatible one [here](https://github.com/obsidianmd/obsidian-releases/releases/tag/v1.7.6)
 - [ ] To test this vault right away you can clone this repository:
 ```bash
 git clone https://git.isir.upmc.fr/morand/obsidian-academia-template.git
