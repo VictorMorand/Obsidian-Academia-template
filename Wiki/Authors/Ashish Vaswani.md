@@ -4,7 +4,7 @@ tags:
 URL:
 ---
 # Ashish Vaswani
-- authored the [[transformer]] !
+- 
 
 ## Authored
 ```dataviewjs

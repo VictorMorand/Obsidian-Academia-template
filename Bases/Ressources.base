@@ -1,0 +1,114 @@
+filters:
+  or:
+    - file.folder == "Ressources/LiteratureNotes"
+    - file.folder == "Ressources/Clippings"
+formulas:
+  enh_title: link(file, title)
+  Untitled: authors.toString().split(', ').map(link("[[Wiki/Authors/" + value + "|" + value + ",]]") )
+properties:
+  formula.enh_title:
+    displayName: title
+  formula.Untitled:
+    displayName: FormattedAuthors
+views:
+  - type: table
+    name: Table
+    order:
+      - status
+      - formula.enh_title
+      - formula.Untitled
+      - file.ctime
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: formula.Untitled
+        direction: ASC
+      - property: status
+        direction: DESC
+      - property: file.ctime
+        direction: ASC
+      - property: authors
+        direction: DESC
+    columnSize:
+      note.status: 55
+      formula.enh_title: 670
+      formula.Untitled: 748
+  - type: table
+    name: Related
+    filters:
+      and:
+        - file.hasLink(this.file)
+    order:
+      - status
+      - formula.enh_title
+      - year
+      - formula.Untitled
+    sort:
+      - property: year
+        direction: DESC
+      - property: formula.Untitled
+        direction: ASC
+      - property: authors
+        direction: DESC
+      - property: published
+        direction: DESC
+    columnSize:
+      note.status: 53
+      formula.enh_title: 570
+      note.year: 55
+      note.authors: 610
+  - type: table
+    name: ToRead
+    filters:
+      and:
+        - '!status.contains("✅")'
+    order:
+      - status
+      - formula.enh_title
+      - year
+      - authors
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: year
+        direction: DESC
+      - property: formula.enh_title
+        direction: ASC
+      - property: status
+        direction: DESC
+      - property: file.ctime
+        direction: ASC
+    limit: 60
+    columnSize:
+      note.status: 54
+      note.year: 53
+      formula.enh_title: 615
+      note.authors: 557
+  - type: table
+    name: authorPapers
+    filters:
+      and:
+        - authors.toString().contains(this.file.name)
+    order:
+      - status
+      - formula.enh_title
+      - year
+      - authors
+    sort:
+      - property: year
+        direction: DESC
+      - property: file.ctime
+        direction: ASC
+      - property: status
+        direction: DESC
+      - property: authors
+        direction: DESC
+      - property: formula.enh_title
+        direction: DESC
+    columnSize:
+      note.status: 55
+      formula.enh_title: 633
+      note.year: 65
+      note.authors: 504

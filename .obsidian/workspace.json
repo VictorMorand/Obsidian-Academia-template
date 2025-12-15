@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "09d43a8fed26c198",
+        "id": "9dd119f0c714adbf",
         "type": "tabs",
         "children": [
           {
-            "id": "9ce3aad99cfceb94",
+            "id": "967ff05766fa5ad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/ZotLit/zt-annot.eta.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "zt-annot.eta"
-            }
-          },
-          {
-            "id": "f1eb401a6fc2f10a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wiki/transformer.md",
+                "file": "❓Tutorial/❓Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transformer"
+              "title": "❓Tutorial"
             }
           }
         ]
@@ -100,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Templates/ZotLit/zt-annot.eta.md",
+                "file": "❓Tutorial/❓Tutorial.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -145,19 +131,19 @@
                   "repelStrength": 4.22560296846011,
                   "linkStrength": 1,
                   "linkDistance": 195,
-                  "scale": 0.7351332014670852,
+                  "scale": 1.6709014550171233,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of zt-annot.eta"
+              "title": "Graph of ❓Tutorial"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 258.51103591918945
+    "width": 356.5
   },
   "right": {
     "id": "4f53356defab32d2",
@@ -243,17 +229,32 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "bb9ca71118a4c1cb",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "❓Tutorial/❓Tutorial.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "ob-note"
+              },
+              "icon": "highlighter",
+              "title": "Zotero Annotations for ❓Tutorial"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -263,12 +264,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9ce3aad99cfceb94",
+  "active": "6e006dcf90973bc7",
   "lastOpenFiles": [
-    "Templates/ZotLit/zt-note.eta.md",
-    "Templates/ZotLit/zt-annot.eta.md",
-    "Templates/ZotLit/zt-field.eta.md",
     "README.md",
+    "❓Tutorial/❓Tutorial.md",
+    "Assets/Pasted image 20251215151426.png",
+    "❓Tutorial/🎓 Research.md",
+    "Ressources/LiteratureNotes/Untitled.md",
+    "Bases/Ressources.base",
+    "Ressources/Clippings",
+    "Ressources/LiteratureNotes/assets/73T7CX3U.png",
+    "Ressources/LiteratureNotes/vaswaniAttentionAllYou2017.md",
+    "Ressources/LiteratureNotes/assets",
+    "Ressources/LiteratureNotes",
+    "Ressources",
+    "Wiki/Authors/Ashish Vaswani.md",
+    "Bases/papers.base",
+    "LiteratureNotes/Untitled.md",
+    "❓Tutorial/Plugins.md",
+    "LiteratureNotes/vaswaniAttentionAllYou2017.md",
+    "Wiki/transformer.md",
+    "Wiki/ZotLit.md",
+    "Wiki/Zotero.md",
+    "Templates/ZotLit/zt-annot.eta.md",
+    "Templates/ZotLit/zt-note.eta.md",
+    "Templates/ZotLit/zt-field.eta.md",
     "ZtTemplates/zt-colored.eta.md",
     "ZtTemplates/zt-cite2.eta.md",
     "ZtTemplates/zt-cite.eta.md",
@@ -277,39 +297,19 @@
     "ZtTemplates/zt-field.eta.md",
     "ZtTemplates/zt-note.eta.md",
     "ZtTemplates",
-    "❓Tutorial/🎓 Research.md",
-    "❓Tutorial/Plugins.md",
-    "❓Tutorial/❓Tutorial.md",
-    "Wiki/transformer.md",
     "Wiki/Authors/Illia Polosukhin.md",
     "Wiki/Templater.md",
     "Wiki/Obsidian.md",
-    "Wiki/Authors/Noam Shazeer.md",
-    "Wiki/Authors/Ashish Vaswani.md",
-    "LiteratureNotes/vaswaniAttentionAllYou2017.md",
-    "LiteratureNotes/Authors/Noam Shazeer.md",
     "LiteratureNotes/Authors",
-    "Wiki/ZotLit.md",
     "Assets/OpenVault.png",
     "Assets/Obsidian_small.png",
     "Wiki/Authors",
     "Wiki/Authors",
-    "Templates/Related Papers.md",
-    "Templates/Author.md",
-    "LitteratureNotes/Authors/Ashish Vaswani.md",
-    "LitteratureNotes/Authors",
-    "LitteratureNotes",
-    "❓Tutorial",
-    "Clippings",
     "LiteratureNotes/assets/73T7CX3U.png",
-    "attachments",
     "LiteratureNotes/assets/I44T9Y76.png",
-    "Scripts/Wiki.js",
     "LiteratureNotes/assets/Y42TUGRW.png",
     "LiteratureNotes/assets/SJ3KMAJ4.png",
     "LiteratureNotes/assets/ISE3N556.png",
-    "LiteratureNotes/assets/ZI7TR2AT.png",
-    "LiteratureNotes/assets/URV4XGER.png",
-    "LiteratureNotes/assets/S9DPDTFF.png"
+    "LiteratureNotes/assets/ZI7TR2AT.png"
   ]
 }

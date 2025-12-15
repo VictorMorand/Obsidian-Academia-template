@@ -26,5 +26,8 @@ git clone https://git.isir.upmc.fr/morand/obsidian-academia-template.git
 - [ ] Then click "Open folder as Vault" and select the repository folder.
 
 <img src="Assets/OpenVault.png" width="400" />
+- [ ] To run the custom code in this repo, you'll need to enable plugins 
+	- (you can still do this later in Parameters  ⚙️ > Community plugins > Turn on community plugins) 
 
+![[Pasted image 20251215151426.png]]
 #### *Now than you are in Obsidian, you can open the [[❓Tutorial]]*

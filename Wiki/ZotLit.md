@@ -5,5 +5,5 @@ URL:
 aliases:
 ---
 # ZotLit
-- Obsidian #plugin 
-- [Documentation](https://zotlit.aidenlx.top/)
+- Obsidian #plugin intergrating [[Zotero]] papers and highlights into [[Obsidian]].
+- see [Documentation](https://zotlit.aidenlx.top/)

@@ -4,29 +4,31 @@
 ---
 [[README|<< Back to Readme]] 
 
-Hi, Welcome to your new [[Obsidian]] vault ! We will guide you though a few steps to showcase the capabilities of the proposed template.
+### Welcome to your new [[Obsidian]] vault ! We will guide you though a few steps to showcase the capabilities of the proposed template.
 
->[!tip] We provide you with this complete Vault, with preloaded and configured plugins 
+# Features of this demo Vault
+This vault primarily intends to demo the [[#Zotlit integration]]. 
 
-# Features 
-- **[[Zotero]]** Integration: 
-- **Authors** Management
-- **Related Papers**:
+I also added some features showcasing what can be done starting from there:
+- **Authors Management**: Authors are displayed and clickable so that you can see what papers from an author are present in your vault. (see [here](vaswaniAttentionAllYou2017), *crtl+hover to open preview*)
+- **Related Papers**: I find it useful to quickly see all papers related to one specific note, see for instance [[transformer#Related Papers]] 
+- Default workspace layout, isn't the like little graph in the bottom left cool ?
 
-Now you can open the 
 ### Plugins
 This template vault leverages several plugins for various usages. We must first ensure that they are properly activated.
 
-- [ ] Go to Parameters '⚙️' > 'Community plugins' > 'Turn on community plugins'
 
 >[!info]- Plugins preloaded
  > ![[Plugins#Plugins Loaded here]]
+# Setup
+I tried to make everything as smooth as possible for a new user, but there is a step that you'll need to do:
 ## Zotlit integration
-
 To interact with your Zotero Library, we first need to access your Zotero Database. 
 #### Setup
-- [ ] make sure the [[Zotlit]] Plugin is installed and enabled in Obsidian ([click here](https://obsidian.md/plugins?id=zotlit) > '**Enable**')
-- [ ] Follow the installation instructions to from [Zotlit documentation](https://zotlit.aidenlx.top/getting-started/install): they will explain how to install the Zotero Plugin for Obsidian integration.
+- [ ] make sure the [[Zotlit]] Plugin is installed and enabled in Obsidian ([click here](https://obsidian.md/plugins?id=zotlit) > '**Enable**' if not already)
+- [ ] Follow the installation instructions to from [Zotlit documentation](https://zotlit.aidenlx.top/getting-started/install): 
+	- [ ] they will explain how to **install the Zotero Plugin for Obsidian integration**.
+	- [ ] Then they'll show you how to link to your library from Obsidian
 
 >[!faq]- [[Zotero]] links won't open ?
 > If using mac or linux, there may are permissions so setup:  [this post](https://forums.zotero.org/discussion/109031/allow-this-site-to-open-the-obsidian-link-with-obsidian](https://forums.zotero.org/discussion/109031/allow-this-site-to-open-the-obsidian-link-with-obsidian)) may help

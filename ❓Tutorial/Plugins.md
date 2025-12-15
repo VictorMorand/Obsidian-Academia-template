@@ -8,3 +8,6 @@ In this vault, our basic setting includes:
  - [[Dataview]]: is great to query and show tables, graphs and from with your vault notes.
  - [[Meta Bind]]: offers dynamic widgets sucha s buttons, entries and other stuff that can make your vault more interactive.
 - [[CustomJS]]: allows to write js snippets that can be called from different notes, it is very useful when you begin to code complex dattaviewjs queries that you want te reuse throuhout your vault.
+- 😙 [Emojis](obsidian://show-plugin?id=emoji-shortcodes) , just type `:smile` to add an emoji.
+
+>[!tip] these are just basic examples, you can find plugins for almost everything in obsidian 

@@ -12,58 +12,24 @@ year: 2017
 authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Ł ukasz Kaiser, Illia Polosukhin
 keywords: ✅
 status: ✅
+url: https://arxiv.org/abs/1706.03762
 ---
 # Attention is All you Need
-```meta-bind-button
-label: 🔃 Update Note
-icon: ""
-style: default
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: "Copy all highlights here, must be in **edit mode**"
-id: "zotlit-update"
-hidden: true
-actions:
-  - type: command
-    command: zotlit:update-literature-note
+```dataviewjs
+const {Ressources} = await cJS()
+Ressources.paperheader(dv);
 ```
-```meta-bind-button
-label: ➡️ Open in Zotero
-icon: ""
-style: default
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: "zotero-open"
-hidden: true
-actions:
-  - type: open
-    link: zotero://select/library/items/IGHRPWNC
-    newTab: false
-```
-```meta-bind-button
-label: 👀 View Highlights
-icon: ""
-style: default
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: zotlit-view-panel
-hidden: true
-actions:
-  - type: command
-    command: zotlit:zotero-annot-view
-```
-``BUTTON[zotero-open]`` ``BUTTON[zotlit-update]`` ``BUTTON[zotlit-view-panel]`` 
-
 > [!abstract]- Abstract
 >The dominant sequence transduction models are based on complex recurrent orconvolutional neural networks in an encoder and decoder configuration. The best performing such models also connect the encoder and decoder through an attentionm echanisms.  We propose a novel, simple network architecture based solely onan attention mechanism, dispensing with recurrence and convolutions entirely.Experiments on two machine translation tasks show these models to be superiorin quality while being more parallelizable and requiring significantly less timeto train. Our single model with 165 million parameters, achieves 27.5 BLEU onEnglish-to-German translation, improving over the existing best ensemble result by over 1 BLEU. On English-to-French translation, we outperform the previoussingle state-of-the-art with model by 0.7 BLEU, achieving a BLEU score of 41.1.
 # Notes
 - Introduces the [[transformer]] architecture !
 - Blah Blah Blah ... it is important to note what you think about papers you read !
+
+>[!tip] Features
+> This is an example Literature note, you can take notes about any Zotero item, 
+> - Auto import all annotations ("🔄 Update note" button )
+> - View Highlights / drag'n drop them in your note "👀 View Highlights" (may need to click 🔗 > "follow active literature note")
+
 
 >[!info]  Links and buttons will not work here as long as the file was not created within your config, you can delete this file and import new literature notes from [[🎓 Research]].
 

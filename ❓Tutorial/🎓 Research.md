@@ -18,24 +18,19 @@ actions:
 ---
 [[❓Tutorial|<<Back to Tutorial]] 
 
-Now that [[ZotLit]] is setup...
-
 ### Importing Literature Note
+
+Now that [[ZotLit]] is setup, you can start importing some papers ! 
+
 Click on the button below to open/import a new Literature Note from your [[Zotero]] database.
-``BUTTON[zotlit]``
+   - ``BUTTON[zotlit]``
 
 ## Papers
-All the imported Zotero items will be displayed down here.
-```dataviewjs
-// get all papers with CustomJS Function 
-const {Ressources} = await cJS()
-const pages = Ressources.allPapers(dv);
-// create a table from it
-dv.table( [, "Title", "year", "authors"],
-	 pages.sort(p => p.status, 'desc')
-	 .map(p => [ p.title, p.year, p.authors] )
-	 )
-```
+All the imported Zotero items will be displayed down here, in this view we sort them by 'last accessed'.
+
+This uses the `bases` native obsidian plugin, which closely resembles the Notion bases feature.
+
+![[papers.base#LastAccessed]]
 
 >[!faq] try to click on an Author
 
