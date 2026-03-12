@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "40ba23d846f04264",
+        "id": "e344fb58e26529b6",
         "type": "tabs",
         "children": [
           {
-            "id": "866e4dbd64cbad14",
+            "id": "9d6fd1554c829133",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "❓Tutorial/❓Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "5f8b76e628371b4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/ZotLit/zt-annot.eta.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "zt-annot.eta"
-            }
-          },
-          {
-            "id": "55d5fc0781d5ed3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ressources/LiteratureNotes/vaswaniAttentionAllYou2017.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vaswaniAttentionAllYou2017"
+              "title": "❓Tutorial"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Ressources/LiteratureNotes/vaswaniAttentionAllYou2017.md",
+                "file": "❓Tutorial/❓Tutorial.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,7 +136,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of vaswaniAttentionAllYou2017"
+              "title": "Graph of ❓Tutorial"
             }
           }
         ]
@@ -266,13 +237,13 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "Ressources/LiteratureNotes/vaswaniAttentionAllYou2017.md",
-                "itemId": 92,
-                "attachmentId": 538,
+                "file": "❓Tutorial/❓Tutorial.md",
+                "itemId": -1,
+                "attachmentId": -1,
                 "follow": "ob-note"
               },
               "icon": "highlighter",
-              "title": "Zotero Annotations for vaswaniAttentionAllYou2017"
+              "title": "Zotero Annotations for ❓Tutorial"
             }
           }
         ],
@@ -295,8 +266,9 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "55d5fc0781d5ed3f",
+  "active": "9d6fd1554c829133",
   "lastOpenFiles": [
+    "README.md",
     "Templates/ZotLit/zt-annot.eta.md",
     "Ressources/LiteratureNotes/vaswaniAttentionAllYou2017.md",
     "ZtTemplates/zt-colored.eta.md",
@@ -311,7 +283,6 @@
     "❓Tutorial/❓Tutorial.md",
     "ZtImgExcerpt/73T7CX3U.png",
     "ZtImgExcerpt",
-    "README.md",
     "Templates/Author.md",
     "Connaissances/Personnes/Authors/Ashish Vaswani.md",
     "Wiki/transformer.md",

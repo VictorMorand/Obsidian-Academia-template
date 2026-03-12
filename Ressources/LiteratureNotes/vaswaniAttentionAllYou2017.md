@@ -28,18 +28,6 @@ Ressources.paperheader(dv);
 - Blah Blah Blah ... it is important to note what you think about papers you read !
 # Reading Notes
 
-> ![[Ressources/LiteratureNotes/assets/73T7CX3U.png|400]] [(Page 3)](zotero://open-pdf/library/items/H73JK4MH?page=3&annotation=73T7CX3U)
-> ^73T7CX3UaH73JK4MHp3
-
-
-
-
-
-
-
-
-
-
 
 >[!tip]-  Features
 > This is an example Literature note, you can take notes about any Zotero item, 
