@@ -21,32 +21,44 @@ Ressources.paperheader(dv);
 ```
 > [!abstract]- Abstract
 >The dominant sequence transduction models are based on complex recurrent orconvolutional neural networks in an encoder and decoder configuration. The best performing such models also connect the encoder and decoder through an attentionm echanisms.  We propose a novel, simple network architecture based solely onan attention mechanism, dispensing with recurrence and convolutions entirely.Experiments on two machine translation tasks show these models to be superiorin quality while being more parallelizable and requiring significantly less timeto train. Our single model with 165 million parameters, achieves 27.5 BLEU onEnglish-to-German translation, improving over the existing best ensemble result by over 1 BLEU. On English-to-French translation, we outperform the previoussingle state-of-the-art with model by 0.7 BLEU, achieving a BLEU score of 41.1.
+
+
 # Notes
 - Introduces the [[transformer]] architecture !
 - Blah Blah Blah ... it is important to note what you think about papers you read !
+# Reading Notes
 
->[!tip] Features
+> ![[Ressources/LiteratureNotes/assets/73T7CX3U.png|400]] [(Page 3)](zotero://open-pdf/library/items/H73JK4MH?page=3&annotation=73T7CX3U)
+> ^73T7CX3UaH73JK4MHp3
+
+
+
+
+
+
+
+
+
+
+
+>[!tip]-  Features
 > This is an example Literature note, you can take notes about any Zotero item, 
 > - Auto import all annotations ("🔄 Update note" button )
 > - View Highlights / drag'n drop them in your note "👀 View Highlights" (may need to click 🔗 > "follow active literature note")
 
+>[!faq] try to click on an Author
+
 
 >[!info]  Links and buttons will not work here as long as the file was not created within your config, you can delete this file and import new literature notes from [[🎓 Research]].
 
-# Reading Notes
 
 ### ⭐ Highlights, Key Ideas
 
 > We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. [(Page 1)](zotero://open-pdf/library/items/H73JK4MH?page=1&annotation=ZYALSTMZ)
 > ^ZYALSTMZaH73JK4MHp1
 
-> ![[LiteratureNotes/assets/73T7CX3U.png]] [(Page 3)](zotero://open-pdf/library/items/H73JK4MH?page=3&annotation=73T7CX3U)
-> ^73T7CX3UaH73JK4MHp3
 
-### ⭐ Highlights, Key Ideas
 
-> We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. [(Page 1)](zotero://open-pdf/library/items/H73JK4MH?page=1&annotation=ZYALSTMZ)
-> ^ZYALSTMZaH73JK4MHp1
 
 ### ⚙️Operation, details
 

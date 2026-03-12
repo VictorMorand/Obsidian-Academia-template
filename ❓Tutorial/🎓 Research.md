@@ -30,9 +30,8 @@ All the imported Zotero items will be displayed down here, in this view we sort 
 
 This uses the `bases` native obsidian plugin, which closely resembles the Notion bases feature.
 
-![[papers.base#LastAccessed]]
 
->[!faq] try to click on an Author
+![[papers.base#LastAccessed]]
 
 >[!faq]- Using Linux ?
 > Zotero hyperlinks may not work, 

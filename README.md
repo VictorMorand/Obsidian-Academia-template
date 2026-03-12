@@ -12,6 +12,7 @@ While Obsidian is straightforward to use with its default configuration, setting
 ### **Zotero** Integration: 
 [Zotero](https://www.zotero.org/) is a powerful tool to save academic papers. It can find and download open access pdfs, import relavant metadata, and allow you to read and highlight them.
 
+- HERE Example of clicking on image
 ### Literature management
 
 - **Authors** Management:
