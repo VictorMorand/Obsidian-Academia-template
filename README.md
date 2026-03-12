@@ -13,13 +13,17 @@ While Obsidian is straightforward to use with its default configuration, setting
 [Zotero](https://www.zotero.org/) is a powerful tool to save academic papers. It can find and download open access pdfs, import relavant metadata, and allow you to read and highlight them.
 
 - HERE Example of clicking on image
+
+
 ### Literature management
 
 - **Authors** Management:
 - **Related Papers**:
+
+
 # Installation
 ### Obsidian
-- [ ] First, Download and install Obsidian, Unfortunately the last version has unfixed issues, so you can get a compatible one [here](https://github.com/obsidianmd/obsidian-releases/releases/tag/v1.7.6)
+- [ ] First, Download and install [Obsidian](https://obsidian.md/download).
 - [ ] To test this vault right away you can clone this repository:
 ```bash
 git clone https://git.isir.upmc.fr/morand/obsidian-academia-template.git
@@ -27,8 +31,8 @@ git clone https://git.isir.upmc.fr/morand/obsidian-academia-template.git
 - [ ] Then click "Open folder as Vault" and select the repository folder.
 
 <img src="Assets/OpenVault.png" width="400" />
+
 - [ ] To run the custom code in this repo, you'll need to enable plugins 
 	- (you can still do this later in Parameters  ⚙️ > Community plugins > Turn on community plugins) 
 
-![[Pasted image 20251215151426.png]]
 #### *Now than you are in Obsidian, you can open the [[❓Tutorial]]*
